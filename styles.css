@@ -1,0 +1,51 @@
+
+.carousel-inner > .carousel-item > img
+{
+    width:100%; height:400px;
+ }
+ #gallery{
+    text-align: center;
+    color: white;
+    font-family: cursive;
+    font-weight: bold;
+ }
+ .jumbotron{
+    background-color: #386189;
+ }
+ body{
+    background:linear-gradient(to right, rgb(249, 250, 249), rgb(14, 70, 160));
+ }
+ .cont{
+    margin-top: 30px;
+ }
+ .imgs{
+   width: 100%;
+   height: 20em;
+ }
+ .gal{
+    margin-bottom: 10px;
+
+
+ }
+ .logo{
+    float: left;
+    height: 4em;
+    width: 4em;
+    margin-left: 30px;
+ }
+ @keyframes example {
+   0%   { -webkit-transform: scale(1); top: 0; left: 0; }
+    100% {  -webkit-transform: scale(1.1);  top: 300px; }
+}
+@keyframes example2 {
+   0%   { -webkit-transform: scale(1); top: 0; left: 0; }
+    100% {  -webkit-transform: scale(0.8);  top: 300px; }
+}
+.grow:hover{
+  border-radius:50%;
+ -webkit-animation: example 2s
+}
+.shrink:hover{
+    border-radius:50%;
+    -webkit-animation: example2 2s
+}
